@@ -3,8 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
-.head{
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.u1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+li{
+    list-style: none;
+    border: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.selec1{
+    border-radius: 30px;
+    padding: 3px;
+    color: green;
+}
+
+header{
+    background-image: url("./image/bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 20px;
+}
+
+input{
+    width: 430px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+}
+
+.selec2{
+    border-radius: 30px;
+    padding: 10px;
+    color: #fff;
+    background-color: green;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.ip_BANK{
+    margin-left: -60px;
 }
