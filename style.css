@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -139,7 +139,7 @@ nav {
     height: 300px;
     border-radius: 20px;
     margin-right: 50px;
-    box-shadow: 4px 7px 15px 15px rgba(0,0,0,0.13);
+    box-shadow: 4px 7px 15px 15px rgba(0, 0, 0, 0.13);
 }
 
 .text2 {
@@ -148,7 +148,7 @@ nav {
     width: 550px;
     height: 300px;
     border-radius: 20px;
-    box-shadow: 4px 7px 15px 15px rgba(0,0,0,0.13);
+    box-shadow: 4px 7px 15px 15px rgba(0, 0, 0, 0.13);
 }
 
 .text3 {
@@ -158,7 +158,7 @@ nav {
     height: 300px;
     margin-top: 50px;
     border-radius: 20px;
-    box-shadow: 4px 7px 15px 15px rgba(0,0,0,0.13);
+    box-shadow: 4px 7px 15px 15px rgba(0, 0, 0, 0.13);
 }
 
 .text4 {
@@ -168,10 +168,97 @@ nav {
     height: 300px;
     margin-top: 50px;
     border-radius: 20px;
-    box-shadow: 4px 7px 15px 15px rgba(0,0,0,0.13);
+    box-shadow: 4px 7px 15px 15px rgba(0, 0, 0, 0.13);
 }
-.hed1{
+
+.hed1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+hr {
+    width: 300px;
+    color: blue;
+}
+
+.dv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sect2 {
+    background-color: rgb(221, 221, 221);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.dv1 {
+    text-align: center;
+    width: 300px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.dv1 img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.dv2 {
+    text-align: center;
+    width: 300px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.dv2 img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.dv3 {
+    text-align: center;
+    width: 300px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.dv3 img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.en{
+    display: flex;
+    align-items: center;
+}
+
+.dev1{
+    display: flex;
+}
+
+.bg-clr {
+    width: 1100px;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 30px;
+    padding: 50px 80px;
+    background-color: rgb(221, 239, 241);
+    border: 1px solid rgb(235, 234, 234);
+}
+
+.left{
+    float: left;
+    border-right: 1px solid rgb(170, 170, 170);
+    padding-right: 160px;
+    height: 230px;
+}
+
+.right{
+    /* margin-right: 750px; */
+    float: right;
+}
+
+.re {
+    float: right;
 }
